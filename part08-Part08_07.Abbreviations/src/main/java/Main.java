@@ -15,13 +15,14 @@ public class Main {
         for (String part : text.split(" ")) {
             if (abbreviations.hasAbbreviation(part)) {
                 part = abbreviations.findExplanationFor(part);
+                System.out.print(part);
+            }else{
+                System.out.print("null");
             }
-
-            System.out.print(part);
             System.out.print(" ");
         }
 
-        System.out.println();
+        
        
     }
 
