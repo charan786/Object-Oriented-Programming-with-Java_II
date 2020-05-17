@@ -29,13 +29,14 @@ public class Warehouse {
 
     public void addToWarehouse(double amount) {
         if (amount < 0) {
-            return;
+            return ;
         }
         if (amount <= howMuchSpaceLeft()) {
             this.balance = this.balance + amount;
         } else {
             this.balance = this.capacity;
         }
+       
     }
 
     public double takeFromWarehouse(double amount) {

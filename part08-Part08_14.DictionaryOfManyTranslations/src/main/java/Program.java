@@ -11,6 +11,6 @@ public class Program {
 
         System.out.println(dictionary.translate("lie"));
         dictionary.remove("bow");
-        System.out.println(dictionary.translate("bow"));
+        System.out.println(dictionary.translate("baaww"));
     }
 }
