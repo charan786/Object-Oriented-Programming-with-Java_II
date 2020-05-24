@@ -9,6 +9,9 @@
  * @author charan
  */
 public class C extends B {
+    public C(){
+    test("y");
+    }
     public void c(){
         System.out.println("C");
     }
